@@ -1,7 +1,7 @@
 .bounce-icon {
 
     cursor: pointer;
-    animation: zoomBorder 10s infinite; /* Apply animation */
+    animation: zoomBorder 20s infinite; /* Apply animation */
   }
   
   @keyframes zoomBorder {

@@ -1,0 +1,26 @@
+.services-section{
+    height: 100vh;
+    background-image: url(../assets/images/services.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #08182fb7;
+    padding: 40px;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: 0.2fr 2.6fr 0.2fr;
+    gap: 20px;
+}
