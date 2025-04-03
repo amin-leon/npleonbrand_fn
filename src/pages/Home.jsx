@@ -3,10 +3,13 @@ import Hero from "../components/sections/Hero";
 import { Typing } from "../components/utils/Typing";
 import Wrapper from "../components/utils/Wrapper";
 import { Theme } from "../styles/Colors";
+import '../styles/Section.css'
 import "../styles/Bounce.css";
 import Services from "../components/sections/Services";
 import serv_background from '../assets/images/services.jpg'
 import Client from "../components/sections/Client";
+import Footer from "../components/sections/Footer";
+import Testimonials from "../components/sections/Testimonials";
 
 
 function Home() {
@@ -36,6 +39,12 @@ function Home() {
       </div>
       <div className="client w-screen">
         <Client />
+      </div>
+      <div className="relative w-screen">
+        <Testimonials />
+      </div>
+      <div className="footer w-screen bg-[#091B34] pt-16">
+        <Footer />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { CiCalendarDate } from "react-icons/ci";
 
 function Client() {
   return (
-    <div className="bg-secondary-alertenative">
+    <div className="bg-[#091B34]">
       <Wrapper>
         <div className="all-client-container grid grid-cols-3 gap-3 p-10">
           <div className="happy-client flex justify-start items-center gap-7 bg-[#08182F] p-6 rounded-md">
