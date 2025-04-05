@@ -85,7 +85,7 @@ function Testimonials() {
                         </p>
                       </div>
                       <img
-                        src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-12 h-12 rounded-md text-center"
                       />
@@ -115,7 +115,7 @@ function Testimonials() {
                         </p>
                       </div>
                       <img
-                        src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?q=80&w=1641&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-12 h-12 rounded-md text-center"
                       />
@@ -179,7 +179,7 @@ function Testimonials() {
                         </p>
                       </div>
                       <img
-                        src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1644&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-12 h-12 rounded-md text-center"
                       />
@@ -209,7 +209,7 @@ function Testimonials() {
                         </p>
                       </div>
                       <img
-                        src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-12 h-12 rounded-md text-center"
                       />

@@ -6,7 +6,7 @@ import '../../styles/Scroll.css'
 function Hero() {
   return (
     <div className='absolute flex flex-col items-center justify-center gap-3 top-16'>
-        <img src={heropic} alt="No Hero photo" className='w-98 h-98 rounded-xl '/>
+        <img src={heropic} alt="No Hero photo" className='w-98 h-98 rounded-xl'/>
         <div className="social-medias">
           <SocialMedias />
         </div>

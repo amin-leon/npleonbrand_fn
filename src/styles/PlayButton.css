@@ -1,0 +1,29 @@
+.video-play-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray; /* Border styling */
+    cursor: pointer;
+    animation: zoomBorder 2s infinite; /* Apply animation */
+  }
+  
+  @keyframes zoomBorder {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .video-play-icon {
+    color: gray; 
+    font-size: 12px;
+  }
+  
