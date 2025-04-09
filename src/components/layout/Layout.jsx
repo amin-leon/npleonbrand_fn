@@ -5,13 +5,13 @@ import NavBar from "../common/Navbar";
 function Layout() {
   return (
     <>
-      <div className="bg-[#091B34] w-screen">
+      <div className="bg-blue-500 w-screen">
         <NavBar />
       </div>
       <main className="h-auto">
         <Outlet />
       </main>
-      <div className="w-screen bg-[#091B34] pt-16">
+      <div className="w-screen pt-16">
         <Footer />
       </div>
     </>

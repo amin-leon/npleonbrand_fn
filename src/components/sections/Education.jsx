@@ -15,8 +15,8 @@ import {
 // Common Timeline component that can be used for both education and experience
 const Timeline = ({ items, title, gradientColors }) => {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-transparent rounded-lg shadow-sm">
-      <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">
+    <div className="max-w-3xl mx-auto p-6 bg-transparent rounded-lg shadow-sm">
+      <h2 className="text-2xl font-bold text-center mb-8 text-blue-500">
         {title}
       </h2>
       <div className="relative">
@@ -43,13 +43,13 @@ const Timeline = ({ items, title, gradientColors }) => {
               </div>
 
               {/* Card */}
-              <div className="ml-4 bg-transparent rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-200 w-full">
+              <div className="ml-4 bg-transparent rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 w-full">
                 <div className="p-3">
                   <p className="text-sm font-medium text-gray-500">
                     {item.date}
                   </p>
-                  <p className="font-bold text-gray-800">{item.title}</p>
-                  <p className="text-sm text-gray-600">{item.description}</p>
+                  <p className="font-bold text-[#f8fafc]">{item.title}</p>
+                  <p className="text-sm text-[#84858E]">{item.description}</p>
                   <p
                     className="text-sm font-medium mt-1"
                     style={{ color: gradientColors.from }}

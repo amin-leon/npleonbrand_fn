@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "../components/common/Navbar";
+import HeroSection from "../components/sections/HeroSection";
+import SubHeroSection from "../components/sections/SubHeroSection";
 
-function Skills() {
+const Skills = () => {
   return (
-    <div>Skills</div>
-  )
-}
+    <div className="min-h-screen w-screen bg-gray-50">
+      <SubHeroSection title="Skills Page" navigateTo="Home" />
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;

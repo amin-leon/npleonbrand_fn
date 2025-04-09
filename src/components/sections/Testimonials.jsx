@@ -17,22 +17,22 @@ function Testimonials() {
   };
 
   return (
-    <div className="testimonials-section">
+    <div className="testimonials-section bg-white">
       <div className="overlay_testim" id="services">
         <Wrapper>
           <div className="service-header">
             <div className="big-small-header flex justify-center items-center flex-col gap-1">
-              <h5 className="text-[#84858E]">|| Testimonials</h5>
+              <h5 className="text-blue-600">|| Testimonials</h5>
               <div className="big-header text-[#f8fafc]">
-                <h1 className="text-3xl font-bold">
+                <h1 className="text-3xl font-bold text-blue-600">
                   What Clients Say about our services
                 </h1>
               </div>
             </div>
-            <Slider {...settings} className="pt-5">
+            <Slider {...settings} className="pt-16">
               <div className="slide">
                 <div className="service-cards grid grid-cols-3 gap-4">
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />
@@ -62,7 +62,7 @@ function Testimonials() {
                       />
                     </div>
                   </div>
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />
@@ -91,7 +91,7 @@ function Testimonials() {
                       />
                     </div>
                   </div>
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />
@@ -125,7 +125,7 @@ function Testimonials() {
               </div>
               <div className="slide">
                 <div className="service-cards grid grid-cols-3 gap-4">
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />
@@ -155,7 +155,7 @@ function Testimonials() {
                       />
                     </div>
                   </div>
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />
@@ -185,7 +185,7 @@ function Testimonials() {
                       />
                     </div>
                   </div>
-                  <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-[#091B34] rounded-md">
+                  <div className="cards h-80 p-10 flex items-center flex-col gap-3 bg-blue-500 rounded-md">
                     <div className="message">
                       <span className="text-3xl text-blue-300">
                         <RiDoubleQuotesL />

@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export const Typing = () => {
   return (
-    <div className="flex justify-center translate-y-1/2 mx-auto py-8  rounded-lg p-4 z-100 h-1/2">
+    <div className="flex justify-center mx-auto py-8  rounded-lg p-4 z-100 h-1/2">
       <TypeAnimation
         sequence={[
           "import React from 'react';",
@@ -27,7 +27,7 @@ export const Typing = () => {
           fontWeight: "medium",
           background: "linear-gradient(to right, #22d3ee, #3b82f6)",
           WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "#08182F",
+          WebkitTextFillColor: "blue",
           textAlign: "left",
           whiteSpace: "pre-line",
         }}

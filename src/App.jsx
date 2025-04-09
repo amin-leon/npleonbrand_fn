@@ -5,6 +5,7 @@ import ErrorPage from "./components/common/ErrorPage";
 import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import BlogDetails from "./pages/BlogDetails"
 import Blogs from "./pages/Blogs";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
@@ -22,11 +23,12 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />}>
-              <Route path="education" element={<Education />} />
+              <Route index element={<Education />} />
               <Route path="experience" element={<Experience />} />
               <Route path="training" element={<Training />} />
             </Route>
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:id" element={<BlogDetails />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />

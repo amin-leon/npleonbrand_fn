@@ -57,7 +57,7 @@ const socialIcons = [
 
 const footerSections = [
   {
-    title: "John Doe",
+    title: "NP Leon",
     href: "#home",
     content: "Crafting high-performance web applications.",
   },
@@ -87,13 +87,14 @@ const footerSections = [
     let year = date.getFullYear();
 
 const Footer = () => (
-  <footer className="bg-[#08182F] px-4 py-6 text-white">
+  // bg-[#08182F]
+  <footer className=" bg-blue-500 px-4 py-6 text-white">
     <div className="mx-auto max-w-6xl">
       <div className="mb-6 grid grid-cols-1 gap-6 md:grid-cols-5">
         {footerSections.map((section, index) => (
           <section
             key={index}
-            className="rounded-lg p-4 transition-colors duration-300 hover:bg-gray-600"
+            className="rounded-lg p-4 transition-colors duration-300 hover:bg-blue-600"
           >
             <a href={section.href} className="block">
               <h2 className="text-lg font-semibold">{section.title}</h2>

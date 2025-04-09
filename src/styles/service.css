@@ -1,6 +1,6 @@
 .services-section{
     height: 100vh;
-    background-image: url(../assets/images/services.jpg);
+    background-image: url(https://img.freepik.com/free-photo/business-people-blue-background_53876-101889.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #08182fb7;
+    background-color: rgba(135, 207, 235, 0.007);
     padding: 40px;
 }
 
