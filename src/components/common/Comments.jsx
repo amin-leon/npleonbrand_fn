@@ -5,7 +5,7 @@ function Comments({ username, comment, date, userimage }) {
         <img
           src={userimage}
           alt=""
-          className="w-16 h-16 rounded-md object-cover"
+          className="w-12 h-12 rounded-full object-cover"
         />
       </div>
       <div className="comment-date ">

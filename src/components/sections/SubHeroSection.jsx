@@ -1,5 +1,6 @@
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import '../../styles/SubHeroSection.css'
+import { Link } from 'react-router';
 
 function SubHeroSection({ title, navigateTo }) {
   return (
@@ -7,7 +8,9 @@ function SubHeroSection({ title, navigateTo }) {
       <h1 className="text-5xl text-[#f8fafc] font-bold">{title}</h1>
       <div>
         <div className="flex justify-center items-center flex-row gap-1">
-          <span className="text-[#84858E] cursor-pointer">{navigateTo}</span>{" "}
+          <span className="text-[#84858E] cursor-pointer">
+            <Link to="/">{navigateTo}</Link>
+          </span>{" "}
           <span className="text-[#84858E]">
             <FaLongArrowAltRight />
           </span>{" "}

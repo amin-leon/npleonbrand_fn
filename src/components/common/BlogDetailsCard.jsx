@@ -27,8 +27,8 @@ function BlogDetailsCard({
         <div className="blog-title text-xl font-bold text-black">
           {blogTitle}
         </div>
-        <div className="blog-desc text-black">
-          <p className="text-sm">{blogDesc}</p>
+        <div className="blog-desc pt-4 text-black">
+          <p className="text-md">{blogDesc}</p>
         </div>
         <div className="blog-likes-comments my-5 flex gap-5">
           <div className="flex justify-center items-center gap-1 text-red-500">

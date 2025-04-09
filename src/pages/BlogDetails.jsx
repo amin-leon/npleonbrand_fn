@@ -76,7 +76,7 @@ function BlogDetails() {
                 ))}
               </div>
               <div className="comments">
-                <p className="text-black">Comments</p>
+                <p className="text-black font-bold">Comments</p>
                 <div className="user-comments">
                   <div>
                     {comments.map((comment, index) => (
