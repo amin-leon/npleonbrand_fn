@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'/npleonbrand_fn'
+  base:'/npleonbrand_fn/'
 })
