@@ -20,7 +20,7 @@ function BlogDetailsCard({
         <img
           src={blogImage}
           alt="Blog-image"
-          className="rounded-md w-full h-128 object-cover"
+          className="rounded-md w-full h-96 object-cover"
         />
       </div>
       <div className="blog-title-likes-comment">
@@ -30,7 +30,7 @@ function BlogDetailsCard({
         <div className="blog-desc pt-4 text-black">
           <p className="text-md">{blogDesc}</p>
         </div>
-        <div className="blog-likes-comments my-5 flex gap-5">
+        {/* <div className="blog-likes-comments my-5 flex gap-5">
           <div className="flex justify-center items-center gap-1 text-red-500">
             <FaHeart className="w-6 h-6 cursor-pointer" />
             <p className="text-red-500">{likes}</p>
@@ -39,7 +39,7 @@ function BlogDetailsCard({
             <FaComments className="w-6 h-6 cursor-pointer" />
             <p className="text-blue-500 ">{comments}</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

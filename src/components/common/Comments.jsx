@@ -1,6 +1,6 @@
 function Comments({ username, comment, date, userimage }) {
   return (
-    <div className="flex flex-row gap-3 pt-5">
+    <div className="flex flex-row gap-3 pt-5 cursor-pointer">
       <div className="user0image">
         <img
           src={userimage}

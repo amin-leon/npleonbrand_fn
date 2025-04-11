@@ -75,7 +75,7 @@ function BlogDetails() {
                   />
                 ))}
               </div>
-              <div className="comments">
+              {/* <div className="comments">
                 <p className="text-black font-bold">Comments</p>
                 <div className="user-comments">
                   <div>
@@ -102,9 +102,9 @@ function BlogDetails() {
                     Comment
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div className="blogs-filter col-span-2 bg-primary-main">
+            <div className="blogs-filter col-span-2">
               <div className="categories text-black p-3">
                 <div className="py-5 text-xl font-bold">Latest Posts:</div>
                 <div>

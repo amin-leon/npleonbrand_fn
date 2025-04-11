@@ -92,12 +92,12 @@
 //               </NavLink>
 //             </div>
 //             <div className="login-section flex justify-center items-center">
-//               <NavLink
-//                 to="/login"
-//                 className="text-white bg-red-500 pr-5 pl-5 pt-2 pb-2 rounded-sm text-sm hover:bg-[#f8fafc] hover:text-black"
-//               >
-//                 Hire Me
-//               </NavLink>
+              // <NavLink
+              //   to="/login"
+              //   className="text-white bg-red-500 pr-5 pl-5 pt-2 pb-2 rounded-sm text-sm hover:bg-[#f8fafc] hover:text-black"
+              // >
+              //   Hire Me
+              // </NavLink>
 //             </div>
 //           </div>
 //         </div>
@@ -111,7 +111,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 import Wrapper from "../utils/Wrapper";
-import { IoCodeSlash } from "react-icons/io5";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -120,46 +119,52 @@ const Navbar = () => {
     <Wrapper>
       <nav className="pt-6 flex items-center justify-between">
         <div className="flex items-center">
-          <div className="text-white font-bold text-xl">
-            <IoCodeSlash />
-          </div>
+          <div className="text-white font-bold text-4xl">NP Leon</div>
 
           <div className="hidden md:flex ml-10 space-x-8">
             <NavLink to="/" className="text-white text-sm hover:text-blue-100">
               Home
             </NavLink>
-            <NavLink to="/about" className="text-white text-sm hover:text-blue-100">
+            <NavLink
+              to="/about"
+              className="text-white text-sm hover:text-blue-100"
+            >
               About
             </NavLink>
-            <NavLink to="/blogs" className="text-white text-sm hover:text-blue-100">
+            <NavLink
+              to="/blogs"
+              className="text-white text-sm hover:text-blue-100"
+            >
               Blogs
             </NavLink>
-            <NavLink to="/skills" className="text-white text-sm hover:text-blue-100">
+            <NavLink
+              to="/skills"
+              className="text-white text-sm hover:text-blue-100"
+            >
               Skills
             </NavLink>
-            <NavLink to="/projects" className="text-white text-sm hover:text-blue-100">
+            <NavLink
+              to="/projects"
+              className="text-white text-sm hover:text-blue-100"
+            >
               Projects
             </NavLink>
-            <NavLink to="/contact" className="text-white text-sm hover:text-blue-100">
+            <NavLink
+              to="/contact"
+              className="text-white text-sm hover:text-blue-100"
+            >
               Contact Me
             </NavLink>
           </div>
         </div>
 
         <div className="flex items-center space-x-4">
-          <a
-            href="#"
+          <NavLink
+            to="/login"
             className="text-blue-500 bg-white rounded-full px-4 py-1 text-sm hover:bg-gray-100"
           >
             Login
-          </a>
-          <a
-            href="#"
-            className="text-white bg-blue-600 rounded-full px-4 py-1 text-sm hover:bg-blue-700"
-          >
-            Sign Up
-          </a>
-
+          </NavLink>
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
